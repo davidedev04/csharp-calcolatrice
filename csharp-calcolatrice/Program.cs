@@ -8,17 +8,21 @@
 
             SommaNumDouble somma2 = new SommaNumDouble(6.5, 7.3);
 
-            xNumInt somma3 = new xNumInt(2, 20);
+            DiffNumInt somma3 = new DiffNumInt(89, 100);
 
-            xNumDouble somma4 = new xNumDouble(6.4, 20.7);
+            DiffNumDouble somma4 = new DiffNumDouble(56.3, 90.7);
 
-            MinNumInt somma5 = new MinNumInt(89, 34);
+            xNumInt somma5 = new xNumInt(2, 20);
 
-            MinNumDouble somma6 = new MinNumDouble(46.8, 78.4);
+            xNumDouble somma6 = new xNumDouble(6.4, 20.7);
 
-            MaxNumInt somma7 = new MaxNumInt(231, 456);
+            MinNumInt somma7 = new MinNumInt(89, 34);
 
-            MaxNumDouble somma8 = new MaxNumDouble(874.6, 346.3);
+            MinNumDouble somma8 = new MinNumDouble(46.8, 78.4);
+
+            MaxNumInt somma9 = new MaxNumInt(231, 456);
+
+            MaxNumDouble somma10 = new MaxNumDouble(874.6, 346.3);
         }
     }
 }

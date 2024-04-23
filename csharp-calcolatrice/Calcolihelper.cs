@@ -41,6 +41,36 @@ namespace csharp_calcolatrice
 
     }
 
+    public class DiffNumInt
+    {
+        public static int NumInt1 { get; set; }
+        public static int NumInt2 { get; set; }
+
+        public DiffNumInt(int numint1, int numint2)
+        {
+            NumInt1 = numint1;
+            NumInt2 = numint2;
+
+            Console.WriteLine($"la differenza tra i due numeri interi é {numint2 % numint1}"); 
+        }
+
+    }
+
+    public class DiffNumDouble
+    {
+        public static double NumDouble1 { get; set; }
+        public static double NumDouble2 { get; set; }
+
+        public DiffNumDouble(double numdouble1, double numdouble2)
+        {
+            NumDouble1 = numdouble1;
+            NumDouble2 = numdouble2;
+
+            Console.WriteLine($"la differenza tra i due numeri decimali é {numdouble2 % numdouble1}");
+        }
+
+    }
+
     public class xNumInt
     {
         public static int Numx1 { get; set; }

@@ -105,6 +105,48 @@ namespace csharp_calcolatrice
 
     }
 
+    public class AbsoluteNumInt
+    {
+        public static int AbsoluteInt1 { get; set; }
+
+        public AbsoluteNumInt(int absolutenumint)
+        {
+            AbsoluteInt1 = absolutenumint;
+
+              /*if ( absolutenumint < 0)
+            {
+                int Result = absolutenumint + (absolutenumint * 2);
+            } else
+            {
+                int Result = absolutenumint;
+            }*/
+
+            Console.WriteLine($"Il valore assoluto del numero intero {absolutenumint} é {Math.Abs(absolutenumint)}");
+
+        }
+    }
+
+    public class AbsoluteNumDouble
+    {
+        public static double AbsoluteDouble1 { get; set; }
+
+        public AbsoluteNumDouble(double absolutenumdouble)
+        {
+            AbsoluteDouble1 = absolutenumdouble;
+
+            /*if ( absolutenumint < 0)
+          {
+              int Result = absolutenumint + (absolutenumint * 2);
+          } else
+          {
+              int Result = absolutenumint;
+          }*/
+
+            Console.WriteLine($"Il valore assoluto del numero decimale {absolutenumdouble} é {Math.Abs(absolutenumdouble)}");
+
+        }
+    }
+
     public class MinNumInt
     {
         public static int NumChoise1 { get; set; }
